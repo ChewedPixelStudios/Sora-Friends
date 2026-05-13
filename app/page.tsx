@@ -19,13 +19,21 @@ export default function Home() {
     });
 
     const data = await res.json();
-
     setResult(data.result);
     setLoading(false);
   }
 
   return (
     <main style={{ padding: 40 }}>
+      {/* Top image */}
+      <div style={{ marginBottom: 20 }}>
+        <img
+          src="/paulie.png"
+          alt="Paulie"
+          style={{ maxWidth: "200px", height: "auto", display: "block" }}
+        />
+      </div>
+
       <h1>AI Video Generator</h1>
 
       <textarea
