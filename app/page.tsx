@@ -30,7 +30,7 @@ export default function Home() {
         <img
           src="/paulie.png"
           alt="Paulie"
-          style={{ maxWidth: "200px", height: "auto", display: "block" }}
+          style={{ maxWidth: "600px", height: "auto", display: "block" }}
         />
       </div>
 
